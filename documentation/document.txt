@@ -1,0 +1,29 @@
+
+
+####################################################
+This Code For Contact form 7 Plugin
+####################################################
+
+
+########################################
+Copy this code and pest in contact form 7 and recived shortcode and the shortcode submit in contact us page...........
+#########################################
+
+    <div class="php-email-form">
+      <div class="row">
+        <div class="col-md-6 form-group">
+          [text* text-991 id:name class:form-control placeholder "Your name"]
+        </div>
+        <div class="col-md-6 form-group mt-3 mt-md-0">
+          [email* email-607 id:email class:form-control placeholder "Enter your email address"]
+        </div>
+      </div>
+      <div class="form-group mt-3">
+        [text* text-991 id:subject class:form-control placeholder "Your subject"]
+      </div>
+      <div class="form-group mt-3">
+        [textarea* textarea-540 class:form-control placeholder "Enter your Message"]
+      </div>
+      <div class="text-center">
+        [submit class:btn class:btn-primary "Send Message"]</div>
+    </div>
